@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Lag_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px"
+	 viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="38.7" width="38.8" y="44.2" x="42" bottomLeftOrigin="true"></sliceSourceBounds>
+		<optimizationSettings>
+			<targetSettings  fileFormat="PNG24Format" targetSettingsID="0">
+				<PNG24Format  transparency="true" interlaced="false" noMatteColor="false" filtered="false" matteColor="#FFFFFF">
+					</PNG24Format>
+			</targetSettings>
+		</optimizationSettings>
+	</sfw>
+</metadata>
+<g id="Lag_1_1_">
+	<path fill="#464665" d="M38.7,5.8c-0.1-0.1-0.3-0.1-0.4,0l0,0c-0.1,0-6.6,3-11.8,6.5C30,7.1,33,0.6,33.1,0.5l0,0
+		c0.1-0.1,0.1-0.3,0-0.4s-0.3-0.1-0.4,0l0,0c0,0-2.2,2-5.3,5.5c-3,3.3-4.9,6-5.9,8c-0.1,0-0.2,0-0.3,0c-0.9,0.1-1.8,0.3-2.4,0.4
+		c-0.1-0.1-0.1-0.2-0.2-0.3c-0.3-0.3-0.8-0.4-1.2-0.3c0,0-15.7,4.2-15.8,4.2c-1.1,0.3-1.8,1.4-1.5,2.5s1.4,1.8,2.5,1.5l15.8-4.2
+		c0.3-0.1,0.6-0.3,0.8-0.6c0.1-0.2,0.1-0.3,0.1-0.5c0.4,0,0.9,0,1.5,0.1c0.1,0.4,0.3,0.8,0.6,1.1c0.3,0.3,0.7,0.5,1.1,0.6
+		c0.1,0.5,0.1,1,0.1,1.5c-0.2,0-0.4,0.1-0.5,0.1c-0.3,0.2-0.5,0.4-0.6,0.8l-4.2,15.7c-0.3,1.1,0.4,2.2,1.5,2.5s2.2-0.4,2.5-1.5
+		l4.2-15.7c0.1-0.4,0-0.9-0.3-1.2c-0.1-0.1-0.2-0.2-0.3-0.2c0.1-0.7,0.3-1.5,0.4-2.5c0-0.1,0-0.2,0-0.3c2-0.9,4.6-2.9,8-5.9
+		c3.5-3.1,5.5-5.3,5.5-5.3l0,0C38.8,6,38.8,5.9,38.7,5.8z M22.1,16.7c-0.4-0.4-0.4-1.1,0-1.5s1.1-0.4,1.5,0s0.4,1.1,0,1.5
+		S22.5,17.1,22.1,16.7z"/>
+</g>
+<g id="tekst">
+</g>
+</svg>

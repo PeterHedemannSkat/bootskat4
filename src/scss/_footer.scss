@@ -1,0 +1,28 @@
+$dimmed-text: #89899D;
+
+footer {
+    background-color: $primary;
+    color: white;
+
+    a, a:hover {
+        color: white;
+    }
+
+    address {
+        margin-bottom: 0;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    .footer-info {
+        color: $dimmed-text;
+        border-top: 1px solid $skts-blaa-80;
+        padding: 1.5rem 1rem 1.5rem;
+    }
+}

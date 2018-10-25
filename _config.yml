@@ -1,0 +1,7 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+source: ./src
+sass:
+  sass_dir: ./scss

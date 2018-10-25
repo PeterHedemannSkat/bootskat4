@@ -1,0 +1,35 @@
+@import 'colors';
+
+ul.link-list {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+
+  li {
+    background: $skts-sand-50;
+
+    &.active {
+      color: #fff;
+      background: $skts-blaa-80;
+      position: relative;
+      padding: 0.7em 0 0.7em 2.6rem;
+
+      &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: -0.7em;
+        border-right: 0.8em solid $skts-blaa-80;
+        border-top: 0.6em solid transparent;
+        border-bottom: 0.6em solid transparent;
+      }
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 0.7em 0 0.7em 2.6rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{%- assign preview_class = include.class -%}
+<div class="doc-example{% if preview_class %} {{ preview_class }}{% endif %}">
+    {{- include.content -}}
+</div>
+{%- if include.hide_markup != true -%}
+{%- highlight html -%}
+{{- include.content -}}
+{%- endhighlight -%}
+{%- endif -%}

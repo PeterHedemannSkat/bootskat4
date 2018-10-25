@@ -1,0 +1,34 @@
+@import "colors";
+
+.btn {
+    width: 17rem;
+    padding: 1rem;
+
+    &.btn-secondary {
+        color: #666;
+        border-color: #395f77;
+
+        &:hover {
+            color: white;
+            background-color: $skts-blaa-hover-color;
+        }
+    }
+}
+
+.skts-standard-buttons {
+    &.skts-wizard-buttons button,
+    &.skts-standard-buttons button,
+    &.skts-wizard-buttons input,
+    &.skts-standard-buttons input,
+    &.skts-wizard-buttons .btn,
+    &.skts-standard-buttons .btn,
+    &.skts-wizard-buttons .btn.btn-primary,
+    &.skts-standard-buttons .btn.btn-primary,
+    &.skts-wizard-buttons .btn.btn-default,
+    &.skts-standard-buttons .btn.btn-default {
+        width: 40%;
+        max-width: 13em;
+        padding: 1em 0;
+        margin: 1.2em 0 0 0;
+    }
+}

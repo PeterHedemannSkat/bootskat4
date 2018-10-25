@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link href="scss/guide.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="index.html">
+                    <br>
+                    <span class="sr-only">Gå til forsiden</span>
+                </a>
+            </div>
+            <ul class="skts-focus-links">
+                <li>
+                    <a href="#skts-skip-link-target-indhold">Gå til indhold</a>
+                </li>
+            </ul>
+        </div>
+        <ol class="col breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Forside</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="udvikling.html">Udvikling</a>
+            </li>
+            <li class="breadcrumb-item active">HTML guide</li>
+        </ol>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8" id="mainContent">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-sm-3 footer-links">
+                    <a href="#">Hjælp</a>
+                </div>
+                <div class="col-6 col footer-links">
+                    <address>
+                        Kontakt os:
+                        <a href="tel:72221818">72&nbsp;22&nbsp;18&nbsp;18</a>
+                    </address>
+                </div>
+                <div class="col-6 col-sm-3 footer-links">
+                    <a target="_blank" href=" https://www.skat.dk/skat.aspx?oid=3038&layout=353121">
+                        Om cookies
+                        <span class="sr-only"> Åbner nyt vindue</span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col footer-info text-center">
+                    skat.dk er Skatteforvaltningens digitale indgang til selvbetjening og vejledning om skatter og
+                    afgifter
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--ADDED FOR GUIDE PURPOSES ONLY BEGIN -->
+    <script src="js/prettify.js"></script>
+    <script src="js/guide.js"></script>
+    <!--ADDED FOR GUIDE PURPOSES ONLY END -->
+</body>
+
+</html>

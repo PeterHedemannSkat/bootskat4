@@ -1,0 +1,96 @@
+.header {
+  background-color: $primary;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+
+  > div {
+    flex: 1;
+  }
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      background: url(../images/skatdk-logo-white-full.svg) no-repeat center
+        center;
+      align-self: center;
+      justify-self: center;
+      height: 72px;
+      width: 160px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    a {
+      padding-left: 1.3rem;
+      background-size: 1rem;
+      background-repeat: no-repeat;
+      background-position: left center;
+
+      + a {
+        margin-right: 20px;
+      }
+
+      &.search {
+        background-image: url(../images/ikoner/ikon-soeg--hvid.svg);
+      }
+    }
+  }
+}
+
+.logged-out {
+  a.logonoff {
+    background-image: url(../images/ikoner/ikon-log-ind--hvid.svg);
+  }
+}
+
+.logged-in {
+  a.logonoff {
+    background-image: url(../images/ikoner/ikon-log-ud--hvid.svg);
+  }
+}
+
+.skts-focus-links {
+  left: 0;
+  list-style: outside none;
+  margin-left: 0;
+  padding-left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0.8em;
+  width: 100%;
+
+  a {
+    left: -99999px;
+    position: absolute;
+    top: 2.8em;
+    background: #464665;
+    height: auto;
+
+    &:active,
+    &:focus {
+      left: 50%;
+      margin: 0 auto;
+      padding: 0.4em 0.8em;
+      text-align: center;
+      text-decoration: none;
+      top: 1em;
+      transform: translateX(-50%);
+      z-index: 9999;
+    }
+  }
+}
