@@ -4,4 +4,4 @@
 2. run **npm install**
 3. run **bundle install**
 4. run **npm run watch**
-5. Open **\_site/udvikling_elementer.html** in a browser
+5. Open **\_site/ny-udvikling-elementer.html** in a browser
