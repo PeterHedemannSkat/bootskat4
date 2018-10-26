@@ -5,3 +5,6 @@ highlighter: rouge
 source: ./src
 sass:
   sass_dir: ./scss
+
+collections:
+  - components

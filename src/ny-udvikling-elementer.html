@@ -1,0 +1,10 @@
+---
+layout: default
+title: HTML Guide
+---
+{% assign sorted_collection = site.components | sort: "order" %}
+{% for component in sorted_collection %}
+<h2 class="h2--guide">{{ component.title }}</h2>
+{{ component.content }}
+<hr>
+{% endfor %}
