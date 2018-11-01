@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>{{ page.title }} / Udviklings- og designguide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>{{ page.title }} / Udviklings- og designguide</title>
     <link href="scss/guide.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.js"></script>
 </head>
@@ -26,13 +26,10 @@
             </ul>
         </div>
         <ol class="col breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="index.html">Forside</a>
-            </li>
-            <li class="breadcrumb-item">
-                <a href="udvikling.html">Udvikling</a>
-            </li>
-            <li class="breadcrumb-item active">HTML guide</li>
+            {% for crumb in page.breadcrumb %}
+            <li class="breadcrumb-item"><a href="{{ crumb | slugify }}.html">{{ crumb | capitalize }}</a></li>
+            {% endfor %}
+            <li class="breadcrumb-item active">{{ page.title }}</li>
         </ol>
     </header>
     <div class="container">
@@ -70,10 +67,6 @@
             </div>
         </div>
     </footer>
-    <!--ADDED FOR GUIDE PURPOSES ONLY BEGIN -->
-    <script src="js/prettify.js"></script>
-    <script src="js/guide.js"></script>
-    <!--ADDED FOR GUIDE PURPOSES ONLY END -->
 </body>
 
 </html>
