@@ -1,11 +1,11 @@
 ---
 title: Alerts
-order: 30
+order: 40
 ---
 
-    Dette er elementer, der bliver brugt for at skabe ekstra opmærksomhed omkring en handling eller
-    en fejlmeddelelse,
-    fx en vigtig meddelelse fra os som skal tydeliggøres. Alerts er opdelt i tre klasser.
+Dette er elementer, der bliver brugt for at skabe ekstra opmærksomhed omkring en handling eller
+en fejlmeddelelse,
+fx en vigtig meddelelse fra os som skal tydeliggøres. Alerts er opdelt i tre klasser.
 
 ### Info
 
@@ -34,7 +34,7 @@ _Warning besked_
 
 {% capture example %}
 
-<div class="alert alert-warning">
+<div class="alert alert-warning" role="alert">
     <h2>Vi har opdateret tallene i din forskudsopgørelse</h2>
     <p>
         Stemmer tallene ikke med dine forhold i 2015, kan du rette dem og beregne et nyt
@@ -53,9 +53,9 @@ _Warning besked_
 
 {% capture example %}
 
-<div class="alert alert-danger">
+<div class="alert alert-danger" role="alert">
     <h2>Det ser ud som om noget ikke stemmer.</h2>
-    <p id="sec_243Error">
+    <p>
         Beløberne i "Jubilæums gratiale mv." (#568) og "Tingsgaver" (#569) er tilsammen højere
         end "Jubilæumsgratiale/fratrædelsesgodtgørelse"
         (#243).
