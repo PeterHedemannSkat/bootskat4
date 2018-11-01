@@ -1,13 +1,16 @@
 ---
 layout: default
 title: HTML Guide
+breadcrumb:
+- index
+- udvikling
 ---
 {% assign sorted_collection = site.components | sort: "order" %}
 
 <ul>
     {% for component in sorted_collection %}
     <li>
-        <a href="#{{ component.title | slugify }}">{{ component.title }}</a>
+        <a href="#{{ component.title | slugify }}">{{ component.title }} ({{component.order}})</a>
     </li>
     {% endfor %}
 </ul>
