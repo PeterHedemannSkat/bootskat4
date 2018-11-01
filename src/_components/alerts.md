@@ -7,7 +7,7 @@ order: 30
     en fejlmeddelelse,
     fx en vigtig meddelelse fra os som skal tydeliggøres. Alerts er opdelt i tre klasser.
 
-### Info<
+### Info
 
 - bruges primært for at give brugerne en vigtig besked, fx husk at overføre beløbet længere
   ned på siden.
