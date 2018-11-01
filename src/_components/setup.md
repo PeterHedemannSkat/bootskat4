@@ -3,15 +3,11 @@ title: Setup
 order: 10
 ---
 
-Et element centreres ved brug af `.container`. Elementet fylder hele skærmen, når det ikke er i en
-`.container`.
+Siden sættes op ved at der i `<body>`, kun er tre elementer (udover `<script>`-tags)
 
-Et eksempel er denne guide. `header` og `footer` er ikke i en `.container`, men det er menuen og
-alt indhold.
-
-`footer` "låses" til bunden af siden (hvis indholdet ikke er længere end browserens vindue) ved
-at sætte alle elmenter (undtagen `footer`) i en container med klassen `.skts-wrap`. Et `div`
-element med klassen `.skts-push` skal indsættes lige før `.skts-wrap` container afsluttes.
+- `<header>`
+- en `<div>` med klassen `.container`.
+- `<foooter>`
 
 {% capture example %}
 
@@ -25,6 +21,9 @@ element med klassen `.skts-push` skal indsættes lige før `.skts-wrap` containe
     <footer>
         Footer content
     </footer>
+    <!-- 
+        Script tags
+    -->
 </body>
 
 {% endcapture %}
