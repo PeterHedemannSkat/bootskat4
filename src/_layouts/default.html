@@ -27,7 +27,12 @@
         </div>
         <ol class="col breadcrumb">
             {% for crumb in page.breadcrumb %}
-            <li class="breadcrumb-item"><a href="{{ crumb | slugify }}.html">{{ crumb | capitalize }}</a></li>
+            {% if crumb.url %}
+            {% assign url = crumb.url %}
+            {% else %}
+            {% assign url = crumb.name %}
+            {% endif %}
+            <li class="breadcrumb-item"><a href="{{ url | slugify }}.html">{{ crumb.name | capitalize }}</a></li>
             {% endfor %}
             <li class="breadcrumb-item active">{{ page.title }}</li>
         </ol>
