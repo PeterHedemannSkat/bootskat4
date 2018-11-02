@@ -5,8 +5,13 @@ layout: default
 <hr>
 <div class="row">
     {% for link in page.links %}
+    {% if link.url %}
+    {% assign url = link.url %}
+    {% else %}
+    {% assign url = link.name %}
+    {% endif %}
     <div class="col-md-6">
-        <a href="{{ link.name | slugify }}" class="transport-box transport-box--large">
+        <a href="{{ url | slugify }}.html" class="transport-box transport-box--large">
             <h2>{{ link.name }}</h2>
             <p>{{ link.description }}</p>
         </a>
