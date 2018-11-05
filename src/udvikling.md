@@ -10,6 +10,7 @@ links:
   - name: Framework udvikling
     description: Videreudvikling af Skatteforvaltningens Bootstrap-framework
   - name: HTML-guide
+    url: udvikling-elementer
     description: Opsætning af HTML-elementer
   - name: Addons
     description: Opsætning af addons
