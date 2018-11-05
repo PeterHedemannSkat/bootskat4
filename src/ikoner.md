@@ -15,7 +15,6 @@ evt. nogen, der har et overblik over ikonerne - fx Digital kommunikation og
 design.
 
 Alle ikoner findes i tre udgaver: standardfarven, der er blå, samt sort og hvid.
-Det er SVG-filer, og de kan downloades ved at højreklikke på dem.
 
 ## Standard ikoner
 
