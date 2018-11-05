@@ -1,0 +1,1637 @@
+﻿$skts-icon-color: #fff;
+$skts-icon-bg: $skts-blaa-80;
+$skts-icon-bg-hover: $skts-blaa;
+$skts-icon-border: transparent;
+
+/* ==========================================================================
+   Icons - Global 
+   ========================================================================== */
+.skts-icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  display: inline-block;
+  height: 3rem;
+  vertical-align: middle;
+  width: 3rem;
+}
+.skts-icon--small {
+  background-size: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+.skts-icon--large {
+  background-size: 4rem;
+  height: 4rem;
+  width: 4rem;
+}
+.skts-icon--align-left {
+  margin-right: 1rem;
+}
+.skts-icon--align-right {
+  margin-left: 1rem;
+}
+
+/*afgifter*/
+.skts-icon--afgifter {
+  background-image: url(../images/ikoner/ikon-afgifter.svg);
+}
+.skts-icon--afgifter-hvid {
+  background-image: url(../images/ikoner/ikon-afgifter--hvid.svg);
+}
+.skts-icon--afgifter-sort {
+  background-image: url(../images/ikoner/ikon-afgifter--sort.svg);
+}
+
+/*afloeb-draen*/
+.skts-icon--afloeb-draen {
+  background-image: url(../images/ikoner/ikon-afloeb-draen.svg);
+}
+.skts-icon--afloeb-draen-hvid {
+  background-image: url(../images/ikoner/ikon-afloeb-draen--hvid.svg);
+}
+.skts-icon--afloeb-draen-sort {
+  background-image: url(../images/ikoner/ikon-afloeb-draen--sort.svg);
+}
+/*afskrivning*/
+.skts-icon--afskrivning {
+  background-image: url(../images/ikoner/ikon-afskrivning.svg);
+}
+.skts-icon--afskrivning-hvid {
+  background-image: url(../images/ikoner/ikon-afskrivning--hvid.svg);
+}
+.skts-icon--afskrivning-sort {
+  background-image: url(../images/ikoner/ikon-afskrivning--sort.svg);
+}
+/*aktier*/
+.skts-icon--aktier {
+  background-image: url(../images/ikoner/ikon-aktier.svg);
+}
+.skts-icon--aktier-hvid {
+  background-image: url(../images/ikoner/ikon-aktier--hvid.svg);
+}
+.skts-icon--aktier-sort {
+  background-image: url(../images/ikoner/ikon-aktier--sort.svg);
+}
+
+/*ansatte-og-loen*/
+.skts-icon--ansatte-og-loen {
+  background-image: url(../images/ikoner/ikon-ansatte-og-loen.svg);
+}
+.skts-icon--ansatte-og-loen-hvid {
+  background-image: url(../images/ikoner/ikon-ansatte-og-loen--hvid.svg);
+}
+.skts-icon--ansatte-og-loen-sort {
+  background-image: url(../images/ikoner/ikon-ansatte-og-loen--sort.svg);
+}
+/*arrow*/
+.skts-icon--arrow {
+  background-image: url(../images/ikoner/ikon-arrow.svg);
+}
+.skts-icon--arrow-hvid {
+  background-image: url(../images/ikoner/ikon-arrow--hvid.svg);
+}
+.skts-icon--arrow-sort {
+  background-image: url(../images/ikoner/ikon-arrow--sort.svg);
+}
+/*asbest-pcb-bly*/
+.skts-icon--asbest-pcb-bly {
+  background-image: url(../images/ikoner/ikon-asbest-pcb-bly.svg);
+}
+.skts-icon--asbest-pcb-bly-hvid {
+  background-image: url(../images/ikoner/ikon-asbest-pcb-bly--hvid.svg);
+}
+.skts-icon--asbest-pcb-bly-sort {
+  background-image: url(../images/ikoner/ikon-asbest-pcb-bly--sort.svg);
+}
+
+/*beregn*/
+.skts-icon--beregn {
+  background-image: url(../images/ikoner/ikon-beregn.svg);
+}
+.skts-icon--beregn-hvid {
+  background-image: url(../images/ikoner/ikon-beregn--hvid.svg);
+}
+.skts-icon--beregn-sort {
+  background-image: url(../images/ikoner/ikon-beregn--sort.svg);
+}
+
+/*betaling*/
+.skts-icon--betaling {
+  background-image: url(../images/ikoner/ikon-betaling.svg);
+}
+.skts-icon--betaling-hvid {
+  background-image: url(../images/ikoner/ikon-betaling--hvid.svg);
+}
+.skts-icon--betaling-sort {
+  background-image: url(../images/ikoner/ikon-betaling--sort.svg);
+}
+
+/*bil*/
+.skts-icon--bil {
+  background-image: url(../images/ikoner/ikon-bil.svg);
+}
+.skts-icon--bil-hvid {
+  background-image: url(../images/ikoner/ikon-bil--hvid.svg);
+}
+.skts-icon--bil-sort {
+  background-image: url(../images/ikoner/ikon-bil--sort.svg);
+}
+/*boede*/
+.skts-icon--boede {
+  background-image: url(../images/ikoner/ikon-boede.svg);
+}
+.skts-icon--boede-hvid {
+  background-image: url(../images/ikoner/ikon-boede--hvid.svg);
+}
+.skts-icon--boede-sort {
+  background-image: url(../images/ikoner/ikon-boede--sort.svg);
+}
+/*boernepasning*/
+.skts-icon--boernepasning {
+  background-image: url(../images/ikoner/ikon-boernepasning.svg);
+}
+.skts-icon--boernepasning-hvid {
+  background-image: url(../images/ikoner/ikon-boernepasning--hvid.svg);
+}
+.skts-icon--boernepasning-sort {
+  background-image: url(../images/ikoner/ikon-boernepasning--sort.svg);
+}
+
+/*borger*/
+.skts-icon--borger {
+  background-image: url(../images/ikoner/ikon-borger.svg);
+}
+.skts-icon--borger-hvid {
+  background-image: url(../images/ikoner/ikon-borger--hvid.svg);
+}
+.skts-icon--borger-sort {
+  background-image: url(../images/ikoner/ikon-borger--sort.svg);
+}
+
+/*braendeovne*/
+.skts-icon--braendeovne {
+  background-image: url(../images/ikoner/ikon-braendeovne.svg);
+}
+.skts-icon--braendeovne-hvid {
+  background-image: url(../images/ikoner/ikon-braendeovne--hvid.svg);
+}
+.skts-icon--braendeovne-sort {
+  background-image: url(../images/ikoner/ikon-braendeovne--sort.svg);
+}
+
+/*broken-file*/
+.skts-icon--broken-file {
+  background-image: url(../images/ikoner/ikon-broken-file.svg);
+}
+.skts-icon--broken-file-hvid {
+  background-image: url(../images/ikoner/ikon-broken-file--hvid.svg);
+}
+.skts-icon--broken-file-sort {
+  background-image: url(../images/ikoner/ikon-broken-file--sort.svg);
+}
+
+/*collapsed*/
+.skts-icon--collapsed {
+  background-image: url(../images/ikoner/ikon-collapsed.svg);
+}
+.skts-icon--collapsed-hvid {
+  background-image: url(../images/ikoner/ikon-collapsed--hvid.svg);
+}
+.skts-icon--collapsed-sort {
+  background-image: url(../images/ikoner/ikon-collapsed--sort.svg);
+}
+
+/*computer*/
+.skts-icon--computer {
+  background-image: url(../images/ikoner/ikon-computer.svg);
+}
+.skts-icon--computer-hvid {
+  background-image: url(../images/ikoner/ikon-computer--hvid.svg);
+}
+.skts-icon--computer-sort {
+  background-image: url(../images/ikoner/ikon-computer--sort.svg);
+}
+
+/*cykel*/
+.skts-icon--cykel {
+  background-image: url(../images/ikoner/ikon-cykel.svg);
+}
+.skts-icon--cykel-hvid {
+  background-image: url(../images/ikoner/ikon-cykel--hvid.svg);
+}
+.skts-icon--cykel-sort {
+  background-image: url(../images/ikoner/ikon-cykel--sort.svg);
+}
+
+/*dagsbevis*/
+.skts-icon--dagsbevis {
+  background-image: url(../images/ikoner/ikon-dagsbevis.svg);
+}
+.skts-icon--dagsbevis-hvid {
+  background-image: url(../images/ikoner/ikon-dagsbevis--hvid.svg);
+}
+.skts-icon--dagsbevis-sort {
+  background-image: url(../images/ikoner/ikon-dagsbevis--sort.svg);
+}
+
+/*fejl*/
+.skts-icon--dk-fejl {
+  background-image: url(../images/ikoner/ikon-fejl--roed.svg);
+}
+.skts-icon--dk-fejl-hvid {
+  background-image: url(../images/ikoner/ikon-fejl--hvid.svg);
+}
+.skts-icon--dk-fejl-sort {
+  background-image: url(../images/ikoner/ikon-fejl--sort.svg);
+}
+
+/*dk-flag*/
+.skts-icon--dk-flag {
+  background-image: url(../images/ikoner/ikon-dk-flag.svg);
+}
+.skts-icon--dk-flag-hvid {
+  background-image: url(../images/ikoner/ikon-dk-flag--hvid.svg);
+}
+.skts-icon--dk-flag-sort {
+  background-image: url(../images/ikoner/ikon-dk-flag--sort.svg);
+}
+
+/*doedsfald*/
+.skts-icon--doedsfald {
+  background-image: url(../images/ikoner/ikon-doedsfald.svg);
+}
+.skts-icon--doedsfald-hvid {
+  background-image: url(../images/ikoner/ikon-doedsfald--hvid.svg);
+}
+.skts-icon--doedsfald-sort {
+  background-image: url(../images/ikoner/ikon-doedsfald--sort.svg);
+}
+
+/*eindkomst*/
+.skts-icon--eindkomst {
+  background-image: url(../images/ikoner/ikon-eindkomst.svg);
+}
+.skts-icon--eindkomst-hvid {
+  background-image: url(../images/ikoner/ikon-eindkomst--hvid.svg);
+}
+.skts-icon--eindkomst-sort {
+  background-image: url(../images/ikoner/ikon-eindkomst--sort.svg);
+}
+
+/*ejendom*/
+.skts-icon--ejendom {
+  background-image: url(../images/ikoner/ikon-ejendom.svg);
+}
+.skts-icon--ejendom-hvid {
+  background-image: url(../images/ikoner/ikon-ejendom--hvid.svg);
+}
+.skts-icon--ejendom-sort {
+  background-image: url(../images/ikoner/ikon-ejendom--sort.svg);
+}
+
+/*ejendomsvurdering*/
+.skts-icon--ejendomsvurdering {
+  background-image: url(../images/ikoner/ikon-ejendomsvurdering.svg);
+}
+.skts-icon--ejendomsvurdering-hvid {
+  background-image: url(../images/ikoner/ikon-ejendomsvurdering--hvid.svg);
+}
+.skts-icon--ejendomsvurdering-sort {
+  background-image: url(../images/ikoner/ikon-ejendomsvurdering--sort.svg);
+}
+/*ekapital*/
+.skts-icon--ekapital {
+  background-image: url(../images/ikoner/ikon-ekapital.svg);
+}
+.skts-icon--ekapital-hvid {
+  background-image: url(../images/ikoner/ikon-ekapital--hvid.svg);
+}
+.skts-icon--ekapital-sort {
+  background-image: url(../images/ikoner/ikon-ekapital--sort.svg);
+}
+/*erhverv*/
+.skts-icon--erhverv {
+  background-image: url(../images/ikoner/ikon-erhverv.svg);
+}
+.skts-icon--erhverv-hvid {
+  background-image: url(../images/ikoner/ikon-erhverv--hvid.svg);
+}
+.skts-icon--erhverv-sort {
+  background-image: url(../images/ikoner/ikon-erhverv--sort.svg);
+}
+
+/*erhverv*/
+.skts-icon--excel {
+  background-image: url(../images/ikoner/ikon-excel.svg);
+}
+.skts-icon--excel-hvid {
+  background-image: url(../images/ikoner/ikon-excel--hvid.svg);
+}
+.skts-icon--excel-sort {
+  background-image: url(../images/ikoner/ikon-excel--sort.svg);
+}
+
+/*excel*/
+.skts-icon--excel {
+  background-image: url(../images/ikoner/ikon-excel.svg);
+}
+.skts-icon--excel-hvid {
+  background-image: url(../images/ikoner/ikon-excel--hvid.svg);
+}
+.skts-icon--excel-sort {
+  background-image: url(../images/ikoner/ikon-excel--sort.svg);
+}
+
+/*expanded*/
+.skts-icon--expanded {
+  background-image: url(../images/ikoner/ikon-expanded.svg);
+}
+.skts-icon--expanded-hvid {
+  background-image: url(../images/ikoner/ikon-expanded--hvid.svg);
+}
+.skts-icon--expanded-sort {
+  background-image: url(../images/ikoner/ikon-expanded--sort.svg);
+}
+
+/*facebook*/
+.skts-icon--facebook {
+  background-image: url(../images/ikoner/ikon-facebook.svg);
+}
+.skts-icon--facebook-hvid {
+  background-image: url(../images/ikoner/ikon-facebook--hvid.svg);
+}
+.skts-icon--facebook-sort {
+  background-image: url(../images/ikoner/ikon-facebook--sort.svg);
+}
+
+/*fejl*/
+.skts-icon--fejl {
+  background-image: url(../images/ikoner/ikon-fejl--roed.svg);
+}
+.skts-icon--fejl-hvid {
+  background-image: url(../images/ikoner/ikon-fejl--hvid.svg);
+}
+.skts-icon--fejl-sort {
+  background-image: url(../images/ikoner/ikon-fejl--sort.svg);
+}
+
+/*fjernvarmeunits*/
+.skts-icon--fjernvarmeunits {
+  background-image: url(../images/ikoner/ikon-fjernvarmeunits.svg);
+}
+.skts-icon--fjernvarmeunits-hvid {
+  background-image: url(../images/ikoner/ikon-fjernvarmeunits--hvid.svg);
+}
+.skts-icon--fjernvarmeunits-sort {
+  background-image: url(../images/ikoner/ikon-fjernvarmeunits--sort.svg);
+}
+
+/*flytning*/
+.skts-icon--flytning {
+  background-image: url(../images/ikoner/ikon-flytning.svg);
+}
+.skts-icon--flytning-hvid {
+  background-image: url(../images/ikoner/ikon-flytning--hvid.svg);
+}
+.skts-icon--flytning-sort {
+  background-image: url(../images/ikoner/ikon-flytning--sort.svg);
+}
+
+/*foreninger*/
+.skts-icon--foreninger {
+  background-image: url(../images/ikoner/ikon-foreninger.svg);
+}
+.skts-icon--foreninger-hvid {
+  background-image: url(../images/ikoner/ikon-foreninger--hvid.svg);
+}
+.skts-icon--foreninger-sort {
+  background-image: url(../images/ikoner/ikon-foreninger--sort.svg);
+}
+
+/*formue*/
+.skts-icon--formue {
+  background-image: url(../images/ikoner/ikon-formue.svg);
+}
+.skts-icon--formue-hvid {
+  background-image: url(../images/ikoner/ikon-formue--hvid.svg);
+}
+.skts-icon--formue-sort {
+  background-image: url(../images/ikoner/ikon-formue--sort.svg);
+}
+
+/*forskning*/
+.skts-icon--forskning {
+  background-image: url(../images/ikoner/ikon-forskning.svg);
+}
+.skts-icon--forskning-hvid {
+  background-image: url(../images/ikoner/ikon-forskning--hvid.svg);
+}
+.skts-icon--forskning-sort {
+  background-image: url(../images/ikoner/ikon-forskning--sort.svg);
+}
+
+/*fradrag*/
+.skts-icon--fradrag {
+  background-image: url(../images/ikoner/ikon-fradrag.svg);
+}
+.skts-icon--fradrag-hvid {
+  background-image: url(../images/ikoner/ikon-fradrag--hvid.svg);
+}
+.skts-icon--fradrag-sort {
+  background-image: url(../images/ikoner/ikon-fradrag--sort.svg);
+}
+
+/*gaeld*/
+.skts-icon--gaeld {
+  background-image: url(../images/ikoner/ikon-gaeld.svg);
+}
+.skts-icon--gaeld-hvid {
+  background-image: url(../images/ikoner/ikon-gaeld--hvid.svg);
+}
+.skts-icon--gaeld-sort {
+  background-image: url(../images/ikoner/ikon-gaeld--sort.svg);
+}
+
+/*gaver*/
+.skts-icon--gaver {
+  background-image: url(../images/ikoner/ikon-gaver.svg);
+}
+.skts-icon--gaver-hvid {
+  background-image: url(../images/ikoner/ikon-gaver--hvid.svg);
+}
+.skts-icon--gaver-sort {
+  background-image: url(../images/ikoner/ikon-gaver--sort.svg);
+}
+
+/*glasdoere*/
+.skts-icon--glasdoere {
+  background-image: url(../images/ikoner/ikon-glasdoere.svg);
+}
+.skts-icon--glasdoere-hvid {
+  background-image: url(../images/ikoner/ikon-glasdoere--hvid.svg);
+}
+.skts-icon--glasdoere-sort {
+  background-image: url(../images/ikoner/ikon-glasdoere--sort.svg);
+}
+
+/*havearbejde*/
+.skts-icon--havearbejde {
+  background-image: url(../images/ikoner/ikon-havearbejde.svg);
+}
+.skts-icon--havearbejde-hvid {
+  background-image: url(../images/ikoner/ikon-havearbejde--hvid.svg);
+}
+.skts-icon--havearbejde-sort {
+  background-image: url(../images/ikoner/ikon-havearbejde--sort.svg);
+}
+
+/*henvendelser*/
+.skts-icon--henvendelser {
+  background-image: url(../images/ikoner/ikon-henvendelser.svg);
+}
+.skts-icon--henvendelser-hvid {
+  background-image: url(../images/ikoner/ikon-henvendelser--hvid.svg);
+}
+.skts-icon--henvendelser-sort {
+  background-image: url(../images/ikoner/ikon-henvendelser--sort.svg);
+}
+
+/*hjaelp*/
+.skts-icon--hjaelp {
+  background-image: url(../images/ikoner/ikon-hjaelp.svg);
+}
+.skts-icon--hjaelp-hvid {
+  background-image: url(../images/ikoner/ikon-hjaelp--hvid.svg);
+}
+.skts-icon--hjaelp-sort {
+  background-image: url(../images/ikoner/ikon-hjaelp--sort.svg);
+}
+
+/*hjaelp-til-tastselv*/
+.skts-icon--hjaelp-til-tastselv {
+  background-image: url(../images/ikoner/ikon-hjaelp-til-tastselv.svg);
+}
+.skts-icon--hjaelp-til-tastselv-hvid {
+  background-image: url(../images/ikoner/ikon-hjaelp-til-tastselv--hvid.svg);
+}
+.skts-icon--hjaelp-til-tastselv-sort {
+  background-image: url(../images/ikoner/ikon-hjaelp-til-tastselv--sort.svg);
+}
+
+/*haandvaerkerfradrag*/
+.skts-icon--haandvaerkerfradrag {
+  background-image: url(../images/ikoner/ikon-haandvaerkerfradrag.svg);
+}
+.skts-icon--haandvaerkerfradrag-hvid {
+  background-image: url(../images/ikoner/ikon-haandvaerkerfradrag--hvid.svg);
+}
+.skts-icon--haandvaerkerfradrag-sort {
+  background-image: url(../images/ikoner/ikon-haandvaerkerfradrag--sort.svg);
+}
+
+/*import-registreringsafgift*/
+.skts-icon--import-registreringsafgift {
+  background-image: url(../images/ikoner/ikon-import-registreringsafgift.svg);
+}
+.skts-icon--import-registreringsafgift-hvid {
+  background-image: url(../images/ikoner/ikon-import-registreringsafgift--hvid.svg);
+}
+.skts-icon--import-registreringsafgift-sort {
+  background-image: url(../images/ikoner/ikon-import-registreringsafgift--sort.svg);
+}
+
+/*indenfor-eu*/
+.skts-icon--indenfor-eu {
+  background-image: url(../images/ikoner/ikon-indenfor-eu.svg);
+}
+.skts-icon--indenfor-eu-hvid {
+  background-image: url(../images/ikoner/ikon-indenfor-eu--hvid.svg);
+}
+.skts-icon--indenfor-eu-sort {
+  background-image: url(../images/ikoner/ikon-indenfor-eu--sort.svg);
+}
+
+/*indkomst-og-skat*/
+.skts-icon--indkomst-og-skat {
+  background-image: url(../images/ikoner/ikon-indkomst-og-skat.svg);
+}
+.skts-icon--indkomst-og-skat-hvid {
+  background-image: url(../images/ikoner/ikon-indkomst-og-skat--hvid.svg);
+}
+.skts-icon--indkomst-og-skat-sort {
+  background-image: url(../images/ikoner/ikon-indkomst-og-skat--sort.svg);
+}
+
+/*indkomster*/
+.skts-icon--indkomster {
+  background-image: url(../images/ikoner/ikon-indkomster.svg);
+}
+.skts-icon--indkomster-hvid {
+  background-image: url(../images/ikoner/ikon-indkomster--hvid.svg);
+}
+.skts-icon--indkomster-sort {
+  background-image: url(../images/ikoner/ikon-indkomster--sort.svg);
+}
+
+/*indstillinger*/
+.skts-icon--indstillinger {
+  background-image: url(../images/ikoner/ikon-indstillinger.svg);
+}
+.skts-icon--indstillinger-hvid {
+  background-image: url(../images/ikoner/ikon-indstillinger--hvid.svg);
+}
+.skts-icon--indstillinger-sort {
+  background-image: url(../images/ikoner/ikon-indstillinger--sort.svg);
+}
+
+/*information*/
+.skts-icon--information {
+  background-image: url(../images/ikoner/ikon-information.svg);
+}
+.skts-icon--information-hvid {
+  background-image: url(../images/ikoner/ikon-information--hvid.svg);
+}
+.skts-icon--information-sort {
+  background-image: url(../images/ikoner/ikon-information--sort.svg);
+}
+
+/*instagram*/
+.skts-icon--instagram {
+  background-image: url(../images/ikoner/ikon-instagram.svg);
+}
+.skts-icon--instagram-hvid {
+  background-image: url(../images/ikoner/ikon-instagram--hvid.svg);
+}
+.skts-icon--instagram-sort {
+  background-image: url(../images/ikoner/ikon-instagram--sort.svg);
+}
+
+/*installation-af-varmepumper*/
+.skts-icon--installation-af-varmepumper {
+  background-image: url(../images/ikoner/ikon-installation-af-varmepumper.svg);
+}
+.skts-icon--installation-af-varmepumper-hvid {
+  background-image: url(../images/ikoner/ikon-installation-af-varmepumper--hvid.svg);
+}
+.skts-icon--installation-af-varmepumper-sort {
+  background-image: url(../images/ikoner/ikon-installation-af-varmepumper--sort.svg);
+}
+
+/*installation-af-varmestyring*/
+.skts-icon--installation-af-varmestyring {
+  background-image: url(../images/ikoner/ikon-installation-af-varmestyring.svg);
+}
+.skts-icon--installation-af-varmestyring-hvid {
+  background-image: url(../images/ikoner/ikon-installation-af-varmestyring--hvid.svg);
+}
+.skts-icon--installation-af-varmestyring-sort {
+  background-image: url(../images/ikoner/ikon-installation-af-varmestyring--sort.svg);
+}
+/*integrer*/
+.skts-icon--integrer {
+  background-image: url(../images/ikoner/ikon-integrer.svg);
+}
+.skts-icon--integrer-hvid {
+  background-image: url(../images/ikoner/ikon-integrer--hvid.svg);
+}
+.skts-icon--integrer-sort {
+  background-image: url(../images/ikoner/ikon-integrer--sort.svg);
+}
+/*intelligent-styring.*/
+.skts-icon--intelligent-styring {
+  background-image: url(../images/ikoner/ikon-intelligent-styring.svg);
+}
+.skts-icon--intelligent-styring-hvid {
+  background-image: url(../images/ikoner/ikon-intelligent-styring--hvid.svg);
+}
+.skts-icon--intelligent-styring-sort {
+  background-image: url(../images/ikoner/ikon-intelligent-styring--sort.svg);
+}
+
+/*isolering-af-gulv*/
+.skts-icon--isolering-af-gulv {
+  background-image: url(../images/ikoner/ikon-isolering-af-gulv.svg);
+}
+.skts-icon--isolering-af-gulv-hvid {
+  background-image: url(../images/ikoner/ikon-isolering-af-gulv--hvid.svg);
+}
+.skts-icon--isolering-af-gulv-sort {
+  background-image: url(../images/ikoner/ikon-isolering-af-gulv--sort.svg);
+}
+
+/*isolering-af-tag*/
+.skts-icon--isolering-af-tag {
+  background-image: url(../images/ikoner/ikon-isolering-af-tag.svg);
+}
+.skts-icon--isolering-af-tag-hvid {
+  background-image: url(../images/ikoner/ikon-isolering-af-tag--hvid.svg);
+}
+.skts-icon--isolering-af-tag-sort {
+  background-image: url(../images/ikoner/ikon-isolering-af-tag--sort.svg);
+}
+
+/*isolering-af-ydervaegge*/
+.skts-icon--isolering-af-ydervaegge {
+  background-image: url(../images/ikoner/ikon-isolering-af-ydervaegge.svg);
+}
+.skts-icon--isolering-af-ydervaegge-hvid {
+  background-image: url(../images/ikoner/ikon-isolering-af-ydervaegge--hvid.svg);
+}
+.skts-icon--isolering-af-ydervaegge-sort {
+  background-image: url(../images/ikoner/ikon-isolering-af-ydervaegge--sort.svg);
+}
+
+/*ivaerksaetter*/
+.skts-icon--ivaerksaetter {
+  background-image: url(../images/ikoner/ikon-ivaerksaetter.svg);
+}
+.skts-icon--ivaerksaetter-hvid {
+  background-image: url(../images/ikoner/ikon-ivaerksaetter--hvid.svg);
+}
+.skts-icon--ivaerksaetter-sort {
+  background-image: url(../images/ikoner/ikon-ivaerksaetter--sort.svg);
+}
+
+/*job*/
+.skts-icon--job {
+  background-image: url(../images/ikoner/ikon-job.svg);
+}
+.skts-icon--job-hvid {
+  background-image: url(../images/ikoner/ikon-job--hvid.svg);
+}
+.skts-icon--job-sort {
+  background-image: url(../images/ikoner/ikon-job--sort.svg);
+}
+
+/*kalender*/
+.skts-icon--kalender {
+  background-image: url(../images/ikoner/ikon-kalender.svg);
+}
+.skts-icon--kalender-hvid {
+  background-image: url(../images/ikoner/ikon-kalender--hvid.svg);
+}
+.skts-icon--kalender-sort {
+  background-image: url(../images/ikoner/ikon-kalender--sort.svg);
+}
+
+/*kontakt*/
+.skts-icon--kontakt {
+  background-image: url(../images/ikoner/ikon-kontakt.svg);
+}
+.skts-icon--kontakt-hvid {
+  background-image: url(../images/ikoner/ikon-kontakt--hvid.svg);
+}
+.skts-icon--kontakt-sort {
+  background-image: url(../images/ikoner/ikon-kontakt--sort.svg);
+}
+/*kontekstuel-lovgivning*/
+.skts-icon--kontekstuel-lovgivning {
+  background-image: url(../images/ikoner/ikon-kontekstuel-lovgivning.svg);
+}
+.skts-icon--kontekstuel-lovgivning-hvid {
+  background-image: url(../images/ikoner/ikon-kontekstuel-lovgivning--hvid.svg);
+}
+.skts-icon--kontekstuel-lovgivning-sort {
+  background-image: url(../images/ikoner/ikon-kontekstuel-lovgivning--sort.svg);
+}
+/*kran*/
+.skts-icon--kran {
+  background-image: url(../images/ikoner/ikon-kran.svg);
+}
+.skts-icon--kran-hvid {
+  background-image: url(../images/ikoner/ikon-kran--hvid.svg);
+}
+.skts-icon--kran-sort {
+  background-image: url(../images/ikoner/ikon-kran--sort.svg);
+}
+/*kuffert*/
+.skts-icon--kuffert {
+  background-image: url(../images/ikoner/ikon-kuffert.svg);
+}
+.skts-icon--kuffert-hvid {
+  background-image: url(../images/ikoner/ikon-kuffert--hvid.svg);
+}
+.skts-icon--kuffert-sort {
+  background-image: url(../images/ikoner/ikon-kuffert--sort.svg);
+}
+
+/*kursus*/
+.skts-icon--kursus {
+  background-image: url(../images/ikoner/ikon-kursus.svg);
+}
+.skts-icon--kursus-hvid {
+  background-image: url(../images/ikoner/ikon-kursus--hvid.svg);
+}
+.skts-icon--kursus-sort {
+  background-image: url(../images/ikoner/ikon-kursus--sort.svg);
+}
+
+/*ladestik-til-elbiler*/
+.skts-icon--ladestik-til-elbiler {
+  background-image: url(../images/ikoner/ikon-ladestik-til-elbiler.svg);
+}
+.skts-icon--ladestik-til-elbiler-hvid {
+  background-image: url(../images/ikoner/ikon-ladestik-til-elbiler--hvid.svg);
+}
+.skts-icon--ladestik-til-elbiler-sort {
+  background-image: url(../images/ikoner/ikon-ladestik-til-elbiler--sort.svg);
+}
+
+/*linkedin*/
+.skts-icon--linkedin {
+  background-image: url(../images/ikoner/ikon-linkedin.svg);
+}
+.skts-icon--linkedin-hvid {
+  background-image: url(../images/ikoner/ikon-linkedin--hvid.svg);
+}
+.skts-icon--linkedin-sort {
+  background-image: url(../images/ikoner/ikon-linkedin--sort.svg);
+}
+
+/*loenindkomst*/
+.skts-icon--loenindkomst {
+  background-image: url(../images/ikoner/ikon-loenindkomst.svg);
+}
+.skts-icon--loenindkomst-hvid {
+  background-image: url(../images/ikoner/ikon-loenindkomst--hvid.svg);
+}
+.skts-icon--loenindkomst-sort {
+  background-image: url(../images/ikoner/ikon-loenindkomst--sort.svg);
+}
+
+/*loensumsafgift*/
+.skts-icon--loensumsafgift {
+  background-image: url(../images/ikoner/ikon-loensumsafgift.svg);
+}
+.skts-icon--loensumsafgift-hvid {
+  background-image: url(../images/ikoner/ikon-loensumsafgift--hvid.svg);
+}
+.skts-icon--loensumsafgift-sort {
+  background-image: url(../images/ikoner/ikon-loensumsafgift--sort.svg);
+}
+
+/*log-ind*/
+.skts-icon--log-ind {
+  background-image: url(../images/ikoner/ikon-log-ind.svg);
+}
+.skts-icon--log-ind-hvid {
+  background-image: url(../images/ikoner/ikon-log-ind--hvid.svg);
+}
+.skts-icon--log-ind-sort {
+  background-image: url(../images/ikoner/ikon-log-ind--sort.svg);
+}
+
+/*log-ud*/
+.skts-icon--log-ud {
+  background-image: url(../images/ikoner/ikon-log-ud.svg);
+}
+.skts-icon--log-ud-hvid {
+  background-image: url(../images/ikoner/ikon-log-ud--hvid.svg);
+}
+.skts-icon--log-ud-sort {
+  background-image: url(../images/ikoner/ikon-log-ud--sort.svg);
+}
+
+/*luk*/
+.skts-icon--luk {
+  background-image: url(../images/ikoner/ikon-luk.svg);
+}
+.skts-icon--luk-hvid {
+  background-image: url(../images/ikoner/ikon-luk--hvid.svg);
+}
+.skts-icon--luk-sort {
+  background-image: url(../images/ikoner/ikon-luk--sort.svg);
+}
+
+/*lyt*/
+.skts-icon--lyt {
+  background-image: url(../images/ikoner/ikon-lyt.svg);
+}
+.skts-icon--lyt-hvid {
+  background-image: url(../images/ikoner/ikon-lyt--hvid.svg);
+}
+.skts-icon--lyt-sort {
+  background-image: url(../images/ikoner/ikon-lyt--sort.svg);
+}
+
+/*laan*/
+.skts-icon--laan {
+  background-image: url(../images/ikoner/ikon-laan.svg);
+}
+.skts-icon--laan-hvid {
+  background-image: url(../images/ikoner/ikon-laan--hvid.svg);
+}
+.skts-icon--laan-sort {
+  background-image: url(../images/ikoner/ikon-laan--sort.svg);
+}
+
+/*menu*/
+.skts-icon--menu {
+  background-image: url(../images/ikoner/ikon-menu.svg);
+}
+.skts-icon--menu-hvid {
+  background-image: url(../images/ikoner/ikon-menu--hvid.svg);
+}
+.skts-icon--menu-sort {
+  background-image: url(../images/ikoner/ikon-menu--sort.svg);
+}
+
+/*moms*/
+.skts-icon--moms {
+  background-image: url(../images/ikoner/ikon-moms.svg);
+}
+.skts-icon--moms-hvid {
+  background-image: url(../images/ikoner/ikon-moms--hvid.svg);
+}
+.skts-icon--moms-sort {
+  background-image: url(../images/ikoner/ikon-moms--sort.svg);
+}
+
+/*more*/
+.skts-icon--more {
+  background-image: url(../images/ikoner/ikon-more.svg);
+}
+.skts-icon--more-hvid {
+  background-image: url(../images/ikoner/ikon-more--hvid.svg);
+}
+.skts-icon--more-sort {
+  background-image: url(../images/ikoner/ikon-more--sort.svg);
+}
+
+/*OK*/
+.skts-icon--ok {
+  background-image: url(../images/ikoner/ikon-ok--groen.svg);
+}
+.skts-icon--ok-hvid {
+  background-image: url(../images/ikoner/ikon-ok--hvid.svg);
+}
+.skts-icon--ok-sort {
+  background-image: url(../images/ikoner/ikon-ok--sort.svg);
+}
+
+/*omregistrering*/
+.skts-icon--omregistrering {
+  background-image: url(../images/ikoner/ikon-omregistrering.svg);
+}
+.skts-icon--omregistrering-hvid {
+  background-image: url(../images/ikoner/ikon-omregistrering--hvid.svg);
+}
+.skts-icon--omregistrering-sort {
+  background-image: url(../images/ikoner/ikon-omregistrering--sort.svg);
+}
+
+/*oversvoemmelse*/
+.skts-icon--oversvoemmelse {
+  background-image: url(../images/ikoner/ikon-oversvoemmelse.svg);
+}
+.skts-icon--oversvoemmelse-hvid {
+  background-image: url(../images/ikoner/ikon-oversvoemmelse--hvid.svg);
+}
+.skts-icon--oversvoemmelse-sort {
+  background-image: url(../images/ikoner/ikon-oversvoemmelse--sort.svg);
+}
+
+/*pdf*/
+.skts-icon--pdf {
+  background-image: url(../images/ikoner/ikon-pdf.svg);
+}
+.skts-icon--pdf-hvid {
+  background-image: url(../images/ikoner/ikon-pdf--hvid.svg);
+}
+.skts-icon--pdf-sort {
+  background-image: url(../images/ikoner/ikon-pdf--sort.svg);
+}
+
+/*pension*/
+.skts-icon--pension {
+  background-image: url(../images/ikoner/ikon-pension.svg);
+}
+.skts-icon--pension-hvid {
+  background-image: url(../images/ikoner/ikon-pension--hvid.svg);
+}
+.skts-icon--pension-sort {
+  background-image: url(../images/ikoner/ikon-pension--sort.svg);
+}
+
+/*permeable-belaegninger*/
+.skts-icon--permeable-belaegninger {
+  background-image: url(../images/ikoner/ikon-permeable-belaegninger.svg);
+}
+.skts-icon--permeable-belaegninger-hvid {
+  background-image: url(../images/ikoner/ikon-permeable-belaegninger--hvid.svg);
+}
+.skts-icon--permeable-belaegninger-sort {
+  background-image: url(../images/ikoner/ikon-permeable-belaegninger--sort.svg);
+}
+
+/*personalegoder*/
+.skts-icon--personalegoder {
+  background-image: url(../images/ikoner/ikon-personalegoder.svg);
+}
+.skts-icon--personalegoder-hvid {
+  background-image: url(../images/ikoner/ikon-personalegoder--hvid.svg);
+}
+.skts-icon--personalegoder-sort {
+  background-image: url(../images/ikoner/ikon-personalegoder--sort.svg);
+}
+
+/*pinterest*/
+.skts-icon--pinterest {
+  background-image: url(../images/ikoner/ikon-pinterest.svg);
+}
+.skts-icon--pinterest-hvid {
+  background-image: url(../images/ikoner/ikon-pinterest--hvid.svg);
+}
+.skts-icon--pinterest-sort {
+  background-image: url(../images/ikoner/ikon-pinterest--sort.svg);
+}
+
+/*play*/
+.skts-icon--play {
+  background-image: url(../images/ikoner/ikon-play.svg);
+}
+.skts-icon--play-hvid {
+  background-image: url(../images/ikoner/ikon-play--hvid.svg);
+}
+.skts-icon--play-sort {
+  background-image: url(../images/ikoner/ikon-play--sort.svg);
+}
+
+/*print*/
+.skts-icon--print {
+  background-image: url(../images/ikoner/ikon-print.svg);
+}
+.skts-icon--print-hvid {
+  background-image: url(../images/ikoner/ikon-print--hvid.svg);
+}
+.skts-icon--print-sort {
+  background-image: url(../images/ikoner/ikon-print--sort.svg);
+}
+
+/*problem*/
+.skts-icon--problem {
+  background-image: url(../images/ikoner/ikon-problem.svg);
+}
+.skts-icon--problem-hvid {
+  background-image: url(../images/ikoner/ikon-problem--hvid.svg);
+}
+.skts-icon--problem-sort {
+  background-image: url(../images/ikoner/ikon-problem--sort.svg);
+}
+
+/*punktafgifter*/
+.skts-icon--punktafgifter {
+  background-image: url(../images/ikoner/ikon-punktafgifter.svg);
+}
+.skts-icon--punktafgifter-hvid {
+  background-image: url(../images/ikoner/ikon-punktafgifter--hvid.svg);
+}
+.skts-icon--punktafgifter-sort {
+  background-image: url(../images/ikoner/ikon-punktafgifter--sort.svg);
+}
+
+/*radonsikring*/
+.skts-icon--radonsikring {
+  background-image: url(../images/ikoner/ikon-radonsikring.svg);
+}
+.skts-icon--radonsikring-hvid {
+  background-image: url(../images/ikoner/ikon-radonsikring--hvid.svg);
+}
+.skts-icon--radonsikring-sort {
+  background-image: url(../images/ikoner/ikon-radonsikring--sort.svg);
+}
+
+/*registreringsafgift*/
+.skts-icon--registreringsafgift {
+  background-image: url(../images/ikoner/ikon-registreringsafgift.svg);
+}
+.skts-icon--registreringsafgift-hvid {
+  background-image: url(../images/ikoner/ikon-registreringsafgift--hvid.svg);
+}
+.skts-icon--registreringsafgift-sort {
+  background-image: url(../images/ikoner/ikon-registreringsafgift--sort.svg);
+}
+
+/*rengoering*/
+.skts-icon--rengoering {
+  background-image: url(../images/ikoner/ikon-rengoering.svg);
+}
+.skts-icon--rengoering-hvid {
+  background-image: url(../images/ikoner/ikon-rengoering--hvid.svg);
+}
+.skts-icon--rengoering-sort {
+  background-image: url(../images/ikoner/ikon-rengoering--sort.svg);
+}
+
+/*renteudgifter-oevrige*/
+.skts-icon--renteudgifter-oevrige {
+  background-image: url(../images/ikoner/ikon-renteudgifter-oevrige.svg);
+}
+.skts-icon--renteudgifter-oevrige-hvid {
+  background-image: url(../images/ikoner/ikon-renteudgifter-oevrige--hvid.svg);
+}
+.skts-icon--renteudgifter-oevrige-sort {
+  background-image: url(../images/ikoner/ikon-renteudgifter-oevrige--sort.svg);
+}
+
+/*raadgivere-revisorer*/
+.skts-icon--raadgivere-revisorer {
+  background-image: url(../images/ikoner/ikon-raadgivere-revisorer.svg);
+}
+.skts-icon--raadgivere-revisorer-hvid {
+  background-image: url(../images/ikoner/ikon-raadgivere-revisorer--hvid.svg);
+}
+.skts-icon--raadgivere-revisorer-sort {
+  background-image: url(../images/ikoner/ikon-raadgivere-revisorer--sort.svg);
+}
+
+/*raadgivning*/
+.skts-icon--raadgivning {
+  background-image: url(../images/ikoner/ikon-raadgivning.svg);
+}
+.skts-icon--raadgivning-hvid {
+  background-image: url(../images/ikoner/ikon-raadgivning--hvid.svg);
+}
+.skts-icon--raadgivning-sort {
+  background-image: url(../images/ikoner/ikon-raadgivning--sort.svg);
+}
+/*segment*/
+.skts-icon--segment {
+  background-image: url(../images/ikoner/ikon-segment.svg);
+}
+.skts-icon--segment-hvid {
+  background-image: url(../images/ikoner/ikon-segment--hvid.svg);
+}
+.skts-icon--segment-sort {
+  background-image: url(../images/ikoner/ikon-segment--sort.svg);
+}
+/*send*/
+.skts-icon--send {
+  background-image: url(../images/ikoner/ikon-send.svg);
+}
+.skts-icon--send-hvid {
+  background-image: url(../images/ikoner/ikon-send--hvid.svg);
+}
+.skts-icon--send-sort {
+  background-image: url(../images/ikoner/ikon-send--sort.svg);
+}
+
+/*servicedesk*/
+.skts-icon--servicedesk {
+  background-image: url(../images/ikoner/ikon-servicedesk.svg);
+}
+.skts-icon--servicedesk-hvid {
+  background-image: url(../images/ikoner/ikon-servicedesk--hvid.svg);
+}
+.skts-icon--servicedesk-sort {
+  background-image: url(../images/ikoner/ikon-servicedesk--sort.svg);
+}
+
+/*skattekonto*/
+.skts-icon--skattekonto {
+  background-image: url(../images/ikoner/ikon-skattekonto.svg);
+}
+.skts-icon--skattekonto-hvid {
+  background-image: url(../images/ikoner/ikon-skattekonto--hvid.svg);
+}
+.skts-icon--skattekonto-sort {
+  background-image: url(../images/ikoner/ikon-skattekonto--sort.svg);
+}
+
+/*skattekort*/
+.skts-icon--skattekort {
+  background-image: url(../images/ikoner/ikon-skattekort.svg);
+}
+.skts-icon--skattekort-hvid {
+  background-image: url(../images/ikoner/ikon-skattekort--hvid.svg);
+}
+.skts-icon--skattekort-sort {
+  background-image: url(../images/ikoner/ikon-skattekort--sort.svg);
+}
+
+/*skatten-2015*/
+.skts-icon--skatten-2015 {
+  background-image: url(../images/ikoner/ikon-skatten-2015.svg);
+}
+.skts-icon--skatten-2015-hvid {
+  background-image: url(../images/ikoner/ikon-skatten-2015--hvid.svg);
+}
+.skts-icon--skatten-2015-sort {
+  background-image: url(../images/ikoner/ikon-skatten-2015--sort.svg);
+}
+
+/*skatten-2016*/
+.skts-icon--skatten-2016 {
+  background-image: url(../images/ikoner/ikon-skatten-2016.svg);
+}
+.skts-icon--skatten-2016-hvid {
+  background-image: url(../images/ikoner/ikon-skatten-2016--hvid.svg);
+}
+.skts-icon--skatten-2016-sort {
+  background-image: url(../images/ikoner/ikon-skatten-2016--sort.svg);
+}
+
+/*skatten-2017*/
+.skts-icon--skatten-2017 {
+  background-image: url(../images/ikoner/ikon-skatten-2017.svg);
+}
+.skts-icon--skatten-2017-hvid {
+  background-image: url(../images/ikoner/ikon-skatten-2017--hvid.svg);
+}
+.skts-icon--skatten-2017-sort {
+  background-image: url(../images/ikoner/ikon-skatten-2017--sort.svg);
+}
+
+/*skatten-2018*/
+.skts-icon--skatten-2018 {
+  background-image: url(../images/ikoner/ikon-skatten-2018.svg);
+}
+.skts-icon--skatten-2018-hvid {
+  background-image: url(../images/ikoner/ikon-skatten-2018--hvid.svg);
+}
+.skts-icon--skatten-2018-sort {
+  background-image: url(../images/ikoner/ikon-skatten-2018--sort.svg);
+}
+
+/*skorsten*/
+.skts-icon--skorsten {
+  background-image: url(../images/ikoner/ikon-skorsten.svg);
+}
+.skts-icon--skorsten-hvid {
+  background-image: url(../images/ikoner/ikon-skorsten--hvid.svg);
+}
+.skts-icon--skorsten-sort {
+  background-image: url(../images/ikoner/ikon-skorsten--sort.svg);
+}
+
+/*solafskaermning*/
+.skts-icon--solafskaermning {
+  background-image: url(../images/ikoner/ikon-solafskaermning.svg);
+}
+.skts-icon--solafskaermning-hvid {
+  background-image: url(../images/ikoner/ikon-solafskaermning--hvid.svg);
+}
+.skts-icon--solafskaermning-sort {
+  background-image: url(../images/ikoner/ikon-solafskaermning--sort.svg);
+}
+
+/*starting-a-business*/
+.skts-icon--starting-a-business {
+  background-image: url(../images/ikoner/ikon-starting-a-business.svg);
+}
+.skts-icon--starting-a-business-hvid {
+  background-image: url(../images/ikoner/ikon-starting-a-business--hvid.svg);
+}
+.skts-icon--starting-a-business-sort {
+  background-image: url(../images/ikoner/ikon-starting-a-business--sort.svg);
+}
+
+/*su*/
+.skts-icon--su {
+  background-image: url(../images/ikoner/ikon-su.svg);
+}
+.skts-icon--su-hvid {
+  background-image: url(../images/ikoner/ikon-su--hvid.svg);
+}
+.skts-icon--su-sort {
+  background-image: url(../images/ikoner/ikon-su--sort.svg);
+}
+
+/*søg*/
+.skts-icon--soeg {
+  background-image: url(../images/ikoner/ikon-soeg.svg);
+}
+.skts-icon--soeg-hvid {
+  background-image: url(../images/ikoner/ikon-soeg--hvid.svg);
+}
+.skts-icon--soeg-sort {
+  background-image: url(../images/ikoner/ikon-soeg--sort.svg);
+}
+
+/*tab-af-varedebitor*/
+.skts-icon--tab-af-varedebitor {
+  background-image: url(../images/ikoner/ikon-tab-af-varedebitor.svg);
+}
+.skts-icon--tab-af-varedebitor-hvid {
+  background-image: url(../images/ikoner/ikon-tab-af-varedebitor--hvid.svg);
+}
+.skts-icon--tab-af-varedebitor-sort {
+  background-image: url(../images/ikoner/ikon-tab-af-varedebitor--sort.svg);
+}
+
+/*tilslutning-til-bredbaand*/
+.skts-icon--tilslutning-til-bredbaand {
+  background-image: url(../images/ikoner/ikon-tilslutning-til-bredbaand.svg);
+}
+.skts-icon--tilslutning-til-bredbaand-hvid {
+  background-image: url(../images/ikoner/ikon-tilslutning-til-bredbaand--hvid.svg);
+}
+.skts-icon--tilslutning-til-bredbaand-sort {
+  background-image: url(../images/ikoner/ikon-tilslutning-til-bredbaand--sort.svg);
+}
+
+/*told*/
+.skts-icon--told {
+  background-image: url(../images/ikoner/ikon-told.svg);
+}
+.skts-icon--told-hvid {
+  background-image: url(../images/ikoner/ikon-told--hvid.svg);
+}
+.skts-icon--told-sort {
+  background-image: url(../images/ikoner/ikon-told--sort.svg);
+}
+/*transparens*/
+.skts-icon--transparens {
+  background-image: url(../images/ikoner/ikon-transparens.svg);
+}
+.skts-icon--transparens-hvid {
+  background-image: url(../images/ikoner/ikon-transparens--hvid.svg);
+}
+.skts-icon--transparens-sort {
+  background-image: url(../images/ikoner/ikon-transparens--sort.svg);
+}
+/*transport*/
+.skts-icon--transport {
+  background-image: url(../images/ikoner/ikon-transport.svg);
+}
+.skts-icon--transport-hvid {
+  background-image: url(../images/ikoner/ikon-transport--hvid.svg);
+}
+.skts-icon--transport-sort {
+  background-image: url(../images/ikoner/ikon-transport--sort.svg);
+}
+
+/*twitter*/
+.skts-icon--twitter {
+  background-image: url(../images/ikoner/ikon-twitter.svg);
+}
+.skts-icon--twitter-hvid {
+  background-image: url(../images/ikoner/ikon-twitter--hvid.svg);
+}
+.skts-icon--twitter-sort {
+  background-image: url(../images/ikoner/ikon-twitter--sort.svg);
+}
+
+/*udland*/
+.skts-icon--udland {
+  background-image: url(../images/ikoner/ikon-udland.svg);
+}
+.skts-icon--udland-hvid {
+  background-image: url(../images/ikoner/ikon-udland--hvid.svg);
+}
+.skts-icon--udland-sort {
+  background-image: url(../images/ikoner/ikon-udland--sort.svg);
+}
+
+/*udvendigt-malerarbejde*/
+.skts-icon--udvendigt-malerarbejde {
+  background-image: url(../images/ikoner/ikon-udvendigt-malerarbejde.svg);
+}
+.skts-icon--udvendigt-malerarbejde-hvid {
+  background-image: url(../images/ikoner/ikon-udvendigt-malerarbejde--hvid.svg);
+}
+.skts-icon--udvendigt-malerarbejde-sort {
+  background-image: url(../images/ikoner/ikon-udvendigt-malerarbejde--sort.svg);
+}
+
+/*udvidet-indberetning*/
+.skts-icon--udvidet-indberetning {
+  background-image: url(../images/ikoner/ikon-udvidet-indberetning.svg);
+}
+.skts-icon--udvidet-indberetning-hvid {
+  background-image: url(../images/ikoner/ikon-udvidet-indberetning--hvid.svg);
+}
+.skts-icon--udvidet-indberetning-sort {
+  background-image: url(../images/ikoner/ikon-udvidet-indberetning--sort.svg);
+}
+
+/*underholdsbidrag*/
+.skts-icon--underholdsbidrag {
+  background-image: url(../images/ikoner/ikon-underholdsbidrag.svg);
+}
+.skts-icon--underholdsbidrag-hvid {
+  background-image: url(../images/ikoner/ikon-underholdsbidrag--hvid.svg);
+}
+.skts-icon--underholdsbidrag-sort {
+  background-image: url(../images/ikoner/ikon-underholdsbidrag--sort.svg);
+}
+
+/*unge*/
+.skts-icon--unge {
+  background-image: url(../images/ikoner/ikon-unge.svg);
+}
+.skts-icon--unge-hvid {
+  background-image: url(../images/ikoner/ikon-unge--hvid.svg);
+}
+.skts-icon--unge-sort {
+  background-image: url(../images/ikoner/ikon-unge--sort.svg);
+}
+
+/*upload*/
+.skts-icon--upload {
+  background-image: url(../images/ikoner/ikon-upload.svg);
+}
+.skts-icon--upload-hvid {
+  background-image: url(../images/ikoner/ikon-upload--hvid.svg);
+}
+.skts-icon--upload-sort {
+  background-image: url(../images/ikoner/ikon-upload--sort.svg);
+}
+
+/*varmeanlæg*/
+.skts-icon--varmeanlaeg {
+  background-image: url(../images/ikoner/ikon-varmeanlaeg.svg);
+}
+.skts-icon--varmeanlaeg-hvid {
+  background-image: url(../images/ikoner/ikon-varmeanlaeg--hvid.svg);
+}
+.skts-icon--varmeanlaeg-sort {
+  background-image: url(../images/ikoner/ikon-varmeanlaeg--sort.svg);
+}
+
+/*ventilation*/
+.skts-icon--ventilation {
+  background-image: url(../images/ikoner/ikon-ventilation.svg);
+}
+.skts-icon--ventilation-hvid {
+  background-image: url(../images/ikoner/ikon-ventilation--hvid.svg);
+}
+.skts-icon--ventilation-sort {
+  background-image: url(../images/ikoner/ikon-ventilation--sort.svg);
+}
+
+/*vindmoeller*/
+.skts-icon--vindmoeller {
+  background-image: url(../images/ikoner/ikon-vindmoeller.svg);
+}
+.skts-icon--vindmoeller-hvid {
+  background-image: url(../images/ikoner/ikon-vindmoeller--hvid.svg);
+}
+.skts-icon--vindmoeller-sort {
+  background-image: url(../images/ikoner/ikon-vindmoeller--sort.svg);
+}
+
+/*vinduespudsning*/
+.skts-icon--vinduespudsning {
+  background-image: url(../images/ikoner/ikon-vinduespudsning.svg);
+}
+.skts-icon--vinduespudsning-hvid {
+  background-image: url(../images/ikoner/ikon-vinduespudsning--hvid.svg);
+}
+.skts-icon--vinduespudsning-sort {
+  background-image: url(../images/ikoner/ikon-vinduespudsning--sort.svg);
+}
+
+/*virksomhed*/
+.skts-icon--virksomhed {
+  background-image: url(../images/ikoner/ikon-virksomhed.svg);
+}
+.skts-icon--virksomhed-hvid {
+  background-image: url(../images/ikoner/ikon-virksomhed--hvid.svg);
+}
+.skts-icon--virksomhed-sort {
+  background-image: url(../images/ikoner/ikon-virksomhed--sort.svg);
+}
+
+/*virksomhedsregistrering*/
+.skts-icon--virksomhedsregistrering {
+  background-image: url(../images/ikoner/ikon-virksomhedsregistrering.svg);
+}
+.skts-icon--virksomhedsregistrering-hvid {
+  background-image: url(../images/ikoner/ikon-virksomhedsregistrering--hvid.svg);
+}
+.skts-icon--virksomhedsregistrering-sort {
+  background-image: url(../images/ikoner/ikon-virksomhedsregistrering--sort.svg);
+}
+
+/*xml*/
+.skts-icon--xml {
+  background-image: url(../images/ikoner/ikon-xml.svg);
+}
+.skts-icon--xml-hvid {
+  background-image: url(../images/ikoner/ikon-xml--hvid.svg);
+}
+.skts-icon--xml-sort {
+  background-image: url(../images/ikoner/ikon-xml--sort.svg);
+}
+
+/*yderdoere*/
+.skts-icon--yderdoere {
+  background-image: url(../images/ikoner/ikon-yderdoere.svg);
+}
+.skts-icon--yderdoere-hvid {
+  background-image: url(../images/ikoner/ikon-yderdoere--hvid.svg);
+}
+.skts-icon--yderdoere-sort {
+  background-image: url(../images/ikoner/ikon-yderdoere--sort.svg);
+}
+
+/*youtube*/
+.skts-icon--youtube {
+  background-image: url(../images/ikoner/ikon-youtube.svg);
+}
+.skts-icon--youtube-hvid {
+  background-image: url(../images/ikoner/ikon-youtube--hvid.svg);
+}
+.skts-icon--youtube-sort {
+  background-image: url(../images/ikoner/ikon-youtube--sort.svg);
+}
+
+/*aarsopgoerelsen*/
+.skts-icon--aarsopgoerelsen {
+  background-image: url(../images/ikoner/ikon-aarsopgoerelsen.svg);
+}
+.skts-icon--aarsopgoerelsen-hvid {
+  background-image: url(../images/ikoner/ikon-aarsopgoerelsen--hvid.svg);
+}
+.skts-icon--aarsopgoerelsen-sort {
+  background-image: url(../images/ikoner/ikon-aarsopgoerelsen--sort.svg);
+}
+
+/* ==========================================================================
+   Icons - ÅRSOPGØRELSE
+   ========================================================================== */
+.skts-theme-icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 3em;
+  display: inline-block;
+  height: 3.3em;
+  width: 3em;
+}
+
+.skts-highlighted-box {
+  .skts-theme-icon {
+    margin-left: -1.5em;
+  }
+}
+
+.skts-icon-koersel {
+  background-image: url(../images/ikoner/ikon-bil--hvid.svg);
+}
+.skts-icon-underhold {
+  background-image: url(../images/ikoner/ikon-underholdsbidrag--hvid.svg);
+}
+.skts-icon-oevrige-renter {
+  background-image: url(../images/ikoner/ikon-renteudgifter-oevrige--hvid.svg);
+}
+.skts-icon-io {
+  background-image: url(../images/ikoner/ikon-foreninger--hvid.svg);
+}
+.skts-icon-ue {
+  background-image: url(../images/ikoner/ikon-ejendom--hvid.svg);
+}
+.skts-icon-up {
+  background-image: url(../images/ikoner/ikon-pension--hvid.svg);
+}
+.skts-icon-ul {
+  background-image: url(../images/ikoner/ikon-loenindkomst--hvid.svg);
+}
+.skts-icon-ua {
+  background-image: url(../images/ikoner/ikon-aktier--hvid.svg);
+}
+.skts-icon-uv {
+  background-image: url(../images/ikoner/ikon-virksomhed--hvid.svg);
+}
+.skts-icon-ai {
+  background-image: url(../images/ikoner/ikon-indkomster--hvid.svg);
+}
+.skts-icon-rf {
+  background-image: url(../images/ikoner/ikon-formue--hvid.svg);
+}
+/* ==========================================================================
+   misc iconsm - DEPRECATED
+   ========================================================================== */
+.skts-calculator-icon,
+.skts-transfer-icon {
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 3rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.skts-calculator-icon {
+  background-image: url(../images/ikoner/ikon-beregn.svg);
+  background-position: center center;
+  background-size: 3rem;
+  width: 3rem;
+  &.skts-calculator-icon--large {
+    background-size: 4rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  &.calculator-icon--block {
+    display: block;
+    float: left;
+  }
+}
+.skts-transfer-icon {
+  background-image: url(../images/ikoner/ikon-upload.svg);
+  background-position: center center;
+  background-size: 3rem;
+  width: 3rem;
+}
+
+/* ==========================================================================
+   Icon styles  - print - DEPRECATED
+   ========================================================================== */
+.skts-top-icons {
+  float: right;
+  padding-bottom: 1em;
+  a {
+    cursor: pointer;
+    display: block;
+    margin: 0 0 0.5em 0;
+    text-decoration: none;
+  }
+}
+.skts-print-icon {
+  background-position: 0 0.2em;
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  padding: 0.3em 0 0.6em 2.3em;
+}
+.skts-print-icon {
+  background-image: url(../images/ikoner/ikon-print.svg);
+}
+
+/** DEPRECATED START (erase when moved to mobile moms) **/
+
+.skts-icon-right-open-big {
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  text-decoration: none;
+  background: url(../images/arrow.svg) left 0 top 0.9rem no-repeat;
+}
+/** DEPRECATED END**/
+/* ==========================================================================
+   Rounded icon style
+   ========================================================================== */
+.skts-rounded-icon {
+  background-color: $skts-icon-bg;
+  border: solid 0.09em $skts-icon-border;
+  border-radius: 50%;
+  color: $skts-icon-color;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  height: 1.8em;
+  margin: 0 0.5em 0 0;
+  line-height: 1;
+  padding: 0.4em 0 0 0;
+  text-align: center;
+  text-decoration: none;
+  width: 1.8em;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $skts-icon-bg-hover;
+    color: $skts-icon-color;
+  }
+}
+.skts-rounded-icon--alt {
+  font-family: verdana, sans-serif;
+  font-weight: 100;
+}
