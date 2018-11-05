@@ -1,7 +1,7 @@
 - name: afgifter
   title: Afgifter
 - name: afskrivning
-  title: afskrivning
+  title: Afskrivning
 - name: aktier
   title: Aktier
 - name: ansatte-og-loen
@@ -11,7 +11,7 @@
 - name: beregn
   title: Beregn
 - name: betaling
-  title: betaling
+  title: Betaling
 - name: bil
   title: Bil
 - name: borger
@@ -21,11 +21,11 @@
 - name: boernepasning
   title: Børnepasning
 - name: broken-file
-  title: broken-file
+  title: Broken file
 - name: collapsed
-  title: collapsed
+  title: Collapsed
 - name: computer
-  title: computer
+  title: Computer
 - name: cykel
   title: Cykel
 - name: dagsbevis
@@ -45,7 +45,7 @@
 - name: excel
   title: Excel
 - name: expanded
-  title: expanded
+  title: Expanded
 - name: facebook
   title: Facebook
 - name: fejl
@@ -61,7 +61,7 @@
 - name: fradrag
   title: Fradrag
 - name: gaeld
-  title: gaeld
+  title: Gæld
 - name: gaver
   title: Gaver
 - name: henvendelser
@@ -69,7 +69,7 @@
 - name: hjaelp
   title: Hjælp
 - name: hjaelp-til-tastselv
-  title: Hjaelp til tastselv
+  title: Hjælp til tastselv
 - name: haandvaerkerfradrag
   title: Håndværkerfradrag
 - name: import-registreringsafgift
@@ -87,7 +87,7 @@
 - name: instagram
   title: Instagram
 - name: integrer
-  title: integrer
+  title: Integrer
 - name: ivaerksaetter
   title: Iværksætter
 - name: job
@@ -97,11 +97,11 @@
 - name: kontakt
   title: Kontakt
 - name: kontekstuel-lovgivning
-  title: kontekstuel-lovgivning
+  title: Kontekstuel-lovgivning
 - name: kuffert
   title: Kuffert
 - name: kursus
-  title: kursus
+  title: Kursus
 - name: kran
   title: Kran
 - name: linkedin
@@ -155,7 +155,7 @@
 - name: raadgivning
   title: Rådgivning
 - name: segment
-  title: segment
+  title: Segment
 - name: send
   title: Send
 - name: servicedesk
@@ -179,11 +179,11 @@
 - name: soeg
   title: Søg
 - name: tab-af-varedebitor
-  title: tab-af-varedebitor
+  title: Tab af varedebitor
 - name: told
   title: Told
 - name: transparens
-  title: transparens
+  title: Transparens
 - name: transport
   title: Transport
 - name: twitter
@@ -203,7 +203,7 @@
 - name: virksomhedsregistrering
   title: Virksomhedsregistrering
 - name: xml
-  title: xml
+  title: XML
 - name: youtube
   title: YouTube
 - name: aarsopgoerelsen
