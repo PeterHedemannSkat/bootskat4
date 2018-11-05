@@ -1,0 +1,205 @@
+- name: Blå
+  category: Blå
+  PMS: 282 C
+  CMYK: 100-90-10-70
+  RGB: 20–20–60
+  HEX: 14143C
+  text: white
+- name: Blå 80%
+  category: Blå
+  CMYK: 80–72–8–56
+  RGB: 67–67–99
+  HEX: 434363
+  text: white
+- name: Blå 60%
+  category: Blå
+  CMYK: 60–54–6–42
+  RGB: 114–114–138
+  HEX: 72728A
+  text: white
+- name: Blå 40%
+  category: Blå
+  CMYK: 40–36–4–28
+  RGB: 161–161–177
+  HEX: A1A1B1
+- name: Blå 20%
+  category: Blå
+  CMYK: 20–18–2–14
+  RGB: 208–208–216
+  HEX: D0D0D8
+- name: Sand
+  category: Sand
+  PMS: 7528 C
+  CMYK: 10–15–20–15
+  RGB: 209–197–195
+  HEX: D1C5C3
+- name: Sand 50%
+  category: Sand
+  CMYK: 5–7,5–10–7,5
+  RGB: 232–226–225
+  HEX: E8E2E1
+- name: Highlight blå
+  category: Highlight blå
+  PMS: 299 C
+  CMYK: 80–5–0–0
+  RGB: 46–153–217
+  HEX: 2E99D9
+- name: Highlight blå 60%
+  category: Highlight blå
+  CMYK: 60–18–0–0
+  RGB: 119–165–213
+  HEX: 77A5D5
+- name: Highlight blå 30%
+  category: Highlight blå
+  CMYK: 30–9–0–0
+  RGB: 187–210–234
+  HEX: BBD2EA
+- name: Rød
+  category: Feltvalidering
+  PMS: 485 C
+  CMYK: 0–100–100–0
+  RGB: 223–5–21
+  HEX: DF0515
+- name: Rød 30%
+  category: Alerts
+  CMYK: 0–30–30–0
+  RGB: 245–180–185
+  HEX: F5B4B9
+- name: Gul 30%
+  category: Alerts
+  CMYK: 0–6–27–0
+  RGB: 255–235–185
+  HEX: FFEBB9
+- name: Dueblå 30%
+  category: Alerts
+  CMYK: 10,5–1,5–0–0
+  RGB: 231–239–244
+  HEX: E7EFF4
+- name: Udviklings- og Forenklingsstyrelsen mellemblå
+  category: Mellemblå
+  PMS: 2174 C
+  CMYK: 100–30–0–0
+  RGB: 28–105–185
+  HEX: 1C69B9
+- name: Mellemblå 60%
+  category: Mellemblå
+  CMYK: 60–18–0–0
+  RGB: 119–165–213
+  HEX: 77A5D5
+- name: Mellemblå 30%
+  category: Mellemblå
+  CMYK: 30–9–0–0
+  RGB: 187–210–234
+  HEX: BBD2EA
+- name: Administrations- og Servicestyrelsen Limegrøn
+  category: Limegrøn
+  PMS: 382 C
+  CMYK: 28–0–100–0
+  RGB: 170–200–0
+  HEX: AAC800
+- name: Limegrøn 60%
+  category: Limegrøn
+  CMYK: 16,8-0-60-0
+  RGB: 204-222-102
+  HEX: ccde66
+- name: Limegrøn 30%
+  category: Limegrøn
+  CMYK: 8,4-0-30-0
+  RGB: 229-238-178
+  HEX: e5eeb2
+- name: Motorstyrelsen grøn
+  category: Grøn
+  PMS: 348 C
+  CMYK: 100–10–100–0
+  RGB: 0–129–57
+  HEX: 008139
+- name: Grøn 60%
+  category: Grøn
+  CMYK: 60–6–60–0
+  RGB: 102–179–136
+  HEX: 66B388
+- name: Grøn 30%
+  category: Grøn
+  CMYK: 30–3–30–0
+  RGB: 178–217–196
+  HEX: B2D9C4
+- name: Toldstyrelsen gul
+  category: Gul
+  PMS: 1225 C
+  CMYK: 0–20–90–0
+  RGB: 255–187–22
+  HEX: FFBB16
+- name: Gul 60%
+  category: Gul
+  CMYK: 0–12–54–0
+  RGB: 255–214–115
+  HEX: FFD673
+- name: Gul 30%
+  category: Gul
+  CMYK: 0–6–27–0
+  RGB: 255–235–185
+  HEX: FFEBB9
+- name: Vurderingsstyrelsen orange
+  category: Orange
+  PMS: 1585 C
+  CMYK: 0–55–100–0
+  RGB: 255–98–12
+  HEX: FF620C
+- name: Orange 60%
+  category: Orange
+  CMYK: 0–33–60–0
+  RGB: 255–161–109
+  HEX: FFA16D
+- name: Orange 30%
+  category: Orange
+  CMYK: 0–16,5–30–0
+  RGB: 255–208–182
+  HEX: FFD0B6
+- name: Gældsstyrelsen rød
+  category: GældsRød
+  PMS: 485 C
+  CMYK: 0–100–100–0
+  RGB: 223–5–21
+  HEX: DF0515
+- name: Rød 60%
+  category: GældsRød
+  CMYK: 0–60–60–0
+  RGB: 236–105–115
+  HEX: EC6973
+- name: Rød 30%
+  category: GældsRød
+  CMYK: 0–30–30–0
+  RGB: 245–180–185
+  HEX: F5B4B9
+- name: Skattestyrelsen dueblå
+  category: Dueblå
+  PMS: 291 C
+  CMYK: 35–5–0–0
+  RGB: 174–203–218
+  HEX: AECBDA
+- name: Dueblå 60%
+  category: Dueblå
+  CMYK: 21–3–0–0
+  RGB: 206–224–233
+  HEX: CEE0E9
+- name: Dueblå 30%
+  category: Dueblå
+  CMYK: 10,5–1,5–0–0
+  RGB: 231–239–244
+  HEX: E7EFF4
+- name: Skattestyrelsen highlight blå
+  category: HighlightBlå
+  PMS: 299 C
+  CMYK: 80–5–0–0
+  RGB: 46–153–217
+  HEX: 2E99D9
+- name: Highlight blå 60%
+  category: HighlightBlå
+  CMYK: 60–18–0–0
+  RGB: 119–165–213
+  HEX: 77A5D5
+- name: Highlight blå 30%
+  category: HighlightBlå
+  CMYK: 30–9–0–0
+  RGB: 187–210–234
+  HEX: BBD2EA
