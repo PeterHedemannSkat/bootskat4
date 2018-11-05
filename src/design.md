@@ -1,6 +1,9 @@
 ---
 layout: transport
 title: Design
+breadcrumb:
+  - name: Hjem
+    url: index
 links:
   - name: Designprincipper
     description: Sådan tænker vi vores digitale løsninger
