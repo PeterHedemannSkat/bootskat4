@@ -1,0 +1,19 @@
+{% for icon in site.data.icons %}
+<div class="row">
+    <div class="col-sm-4">
+        <div class="skts-icon skts-icon--{{ icon.name }} skts-icon--large" data-original-title="" title=""><a href="#"
+                data-toggle="modal" data-target="#downloadModal" data-file-path="sktscommon/images/ikoner/ikon-{{ icon.name }}.svg"><br></a></div>
+        <div>{{ icon.title }} (L)</div>
+    </div>
+    <div class="col-sm-4">
+        <div class="skts-icon skts-icon--{{ icon.name }}" data-original-title="" title=""><a href="#" data-toggle="modal"
+                data-target="#downloadModal" data-file-path="sktscommon/images/ikoner/ikon-{{ icon.name }}.svg"><br></a></div>
+        <div>{{ icon.title }} (M)</div>
+    </div>
+    <div class="col-sm-4">
+        <div class="skts-icon skts-icon--{{ icon.name }} skts-icon--small" data-original-title="" title=""><a href="#"
+                data-toggle="modal" data-target="#downloadModal" data-file-path="sktscommon/images/ikoner/ikon-{{ icon.name }}.svg"><br></a></div>
+        <div>{{ icon.title }} (S)</div>
+    </div>
+</div>
+{% endfor %}
