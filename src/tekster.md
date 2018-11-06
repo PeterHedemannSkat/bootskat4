@@ -33,7 +33,7 @@ breadcrumb:
 
 - Bruges oftest i kombination med en knap, fx Ja/Nej radio knapper
 
-**Vensterstillet tekst**
+**Venstrestillet tekst**
 
 - Default formatering
 
