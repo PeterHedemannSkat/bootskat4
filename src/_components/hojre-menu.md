@@ -16,6 +16,7 @@ viste menupunkter.
 Det valgte punkt markeres med lys farve og pil ud mod indhold.
 
 {% capture example %}
+
 <ul class="link-list">
     <li>
         <a href="#">En anden side</a>
@@ -39,6 +40,7 @@ og rød alt efter længden på ventetiden. Eller hvis det ikke er muligt
 
 **Kort ventetid**
 {% capture example %}
+
 <div class="contact">
     Har du spørgsmål om registreringsafgiften?
     <br />
@@ -70,6 +72,7 @@ og rød alt efter længden på ventetiden. Eller hvis det ikke er muligt
 
 **Udenfor telefontid**
 {% capture example %}
+
 <div class="contact">
     Har du spørgsmål om fradrag?
     <br />
@@ -93,6 +96,7 @@ forbedre indholdet alt efter brugerinput.
 Dette element kan også bruges i bunden af sider der kun har en kolonne.
 
 {% capture example %}
+
 <div class="skts-feedback text-center clearfix">
     <div class="skts-feedback__header">Fik du svar på dine spørgsmål?</div>
     <div class="btn-group" data-toggle="buttons">

@@ -6,18 +6,21 @@ breadcrumb:
     url: index
   - name: udvikling
 ---
+
 {% assign sorted_collection = site.components | sort: "order" %}
 
 <ul>
-    {% for component in sorted_collection %}
-    <li>
-        <a href="#{{ component.title | slugify }}">{{ component.title }} ({{component.order}})</a>
-    </li>
-    {% endfor %}
+  {% for component in sorted_collection %}
+  <li>
+    <a href="#{{ component.title | slugify }}"
+      >{{ component.title }} ({{component.order}})</a
+    >
+  </li>
+  {% endfor %}
 </ul>
 
 {% for component in sorted_collection %}
 <h2 id="{{ component.title | slugify }}">{{ component.title }}</h2>
 {{ component.content }}
-<hr>
+<hr />
 {% endfor %}

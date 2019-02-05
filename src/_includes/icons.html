@@ -1,16 +1,28 @@
 {% for icon in site.data.icons %}
 <div class="row">
-    <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
-        <div class="skts-icon skts-icon--{{ icon.name }} skts-icon--large flex-grow-1" data-original-title="" title=""></div>
-        <div>{{ icon.title }} (L)</div>
-    </div>
-    <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
-        <div class="skts-icon skts-icon--{{ icon.name }} flex-grow-1" data-original-title="" title=""></div>
-        <div>{{ icon.title }} (M)</div>
-    </div>
-    <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
-        <div class="skts-icon skts-icon--{{ icon.name }} skts-icon--small flex-grow-1" data-original-title="" title=""></div>
-        <div>{{ icon.title }} (S)</div>
-    </div>
+  <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
+    <div
+      class="skts-icon skts-icon--{{ icon.name }} skts-icon--large flex-grow-1"
+      data-original-title=""
+      title=""
+    ></div>
+    <div>{{ icon.title }} (L)</div>
+  </div>
+  <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
+    <div
+      class="skts-icon skts-icon--{{ icon.name }} flex-grow-1"
+      data-original-title=""
+      title=""
+    ></div>
+    <div>{{ icon.title }} (M)</div>
+  </div>
+  <div class="col-sm-4 text-center p-4 d-flex flex-column align-items-center">
+    <div
+      class="skts-icon skts-icon--{{ icon.name }} skts-icon--small flex-grow-1"
+      data-original-title=""
+      title=""
+    ></div>
+    <div>{{ icon.title }} (S)</div>
+  </div>
 </div>
 {% endfor %}
